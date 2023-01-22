@@ -1,0 +1,3 @@
+config:
+  azure-native:location: WestUS2
+  go-resoure-account:shortname: dev

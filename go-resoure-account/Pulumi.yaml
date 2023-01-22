@@ -1,0 +1,3 @@
+name: go-resoure-account
+runtime: go
+description: A minimal Azure Native Go Pulumi program
