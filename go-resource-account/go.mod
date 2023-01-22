@@ -1,4 +1,4 @@
-module go-resoure-account
+module go-resource-account
 
 go 1.18
 
