@@ -1,0 +1,3 @@
+config:
+  azure-native:location: WestUS2
+  user-group:user_group: dev.yaml

@@ -1,0 +1,24 @@
+date: today
+usergroup:
+  users:
+    john_doe:
+      name: "John Doe"
+      email: john_doe@fake-org.com
+      groups:
+        - billing
+    george_washington:
+      name: "George Washington"
+      email: George_washington@fake-org.com
+      groups:
+        - admin
+  groups:
+    admin: 
+      description: Group for superusers
+      policies:
+        - iam-admin
+        - vm-admin
+        - aks-admin
+    billing:
+      description: Group for billing owners
+      policies:
+        - billing-admin
